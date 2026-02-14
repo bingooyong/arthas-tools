@@ -1,0 +1,23 @@
+# 构建产物目录（由 make dist 生成）
+dist/
+
+# Maven
+target/
+pom.xml.tag
+pom.releaseBackup
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志与临时
+*.log
+*.tmp
