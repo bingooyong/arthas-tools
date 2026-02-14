@@ -1,0 +1,21 @@
+# 每次 push/PR 时构建，用于 README 构建状态徽标与尽早发现编译问题
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+          cache: maven
+      - run: mvn -B verify -DskipTests
+      - run: mvn -B package -DskipTests

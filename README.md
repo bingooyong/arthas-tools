@@ -1,5 +1,10 @@
 # arthas-tools
 
+[![CI](https://github.com/bingooyong/arthas-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/bingooyong/arthas-tools/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/bingooyong/arthas-tools)](https://github.com/bingooyong/arthas-tools/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java 8](https://img.shields.io/badge/Java-8-blue.svg)](https://openjdk.org/)
+
 进程内缓存导出工具：通过 JVM Attach API 附加到目标进程，在不重启、不修改目标代码的前提下，按「类 + 字段/方法」定位对象，将 Map、List、Set、Collection 或数组等内容导出到指定文件。适用于排查线上缓存、导出配置或状态等场景，无需目标应用配合即可导出进程内数据。
 
 ## 支持的目标类型
