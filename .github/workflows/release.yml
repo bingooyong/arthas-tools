@@ -9,6 +9,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 创建 Release、上传附件、生成 release notes 所需
     steps:
       - name: Checkout
         uses: actions/checkout@v4
