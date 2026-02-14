@@ -1,6 +1,6 @@
 # arthas-tools
 
-[![CI](https://github.com/bingooyong/arthas-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/bingooyong/arthas-tools/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/bingooyong/arthas-tools/ci.yml?branch=main&label=CI)](https://github.com/bingooyong/arthas-tools/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/bingooyong/arthas-tools)](https://github.com/bingooyong/arthas-tools/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java 8](https://img.shields.io/badge/Java-8-blue.svg)](https://openjdk.org/)
